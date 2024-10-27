@@ -20,6 +20,7 @@ nav {
 ul {
   padding-left: 0;
   list-style: none;
+  justify-content: space-between;
 }
 
 ul > li {
@@ -93,4 +94,17 @@ footer {
 
 section.body {
   width: 90%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card {
+  border: solid 1px #999;
+  padding: 10px;
+  border-radius: 8px;
+  flex-basis: 250px;
 }
